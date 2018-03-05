@@ -157,7 +157,7 @@ var Slider = function (_React$PureComponent) {
 			var isDisabled = this.isDisabled();
 			return _react2.default.createElement(
 				'div',
-				{ className: className, ref: this.initTouchEvents },
+				{ className: className },
 				_react2.default.createElement(
 					'button',
 					{

@@ -220,7 +220,7 @@ class Slider extends React.PureComponent {
 		const classNames = this.getClassNames();
 		const isDisabled = this.isDisabled();
 		return (
-			<div className={className} ref={this.initTouchEvents}>
+			<div className={className}>
 				<button
 					onClick={this.previous}
 					className={classNames.previousButton}
